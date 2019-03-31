@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.game_cont{
+    position: relative;
+    display: flex;
+    margin:50px auto;
+    width: 900px;
+    height: 500px;
+    flex-direction: row;
+}
+.unit{
+    display: flex;
+    margin:  0 auto;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+}
+#canvas{
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    background:white;
+    
+}
+body{
+ 
+background-color: black;
+}
+.power_cont{
+    /*position: absolute;*/
+    display: flex;
+    margin:0 auto;
+    height: 50px;
+    width: 150px;
+}
+.power{
+    height: 100%;
+    width: 100%;
+    background-color: white ;
+    border-radius: 50%;
+}
+.power_switch
+{
+    background-color: gold;
+}
+#pointer {
+    display: flex;
+    margin: 10px auto;
+    height: 10px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: red;
+    overflow: hidden;
+}
+#pointer_load{
+   
+    height: 100%;
+    width: 0px;
+    border-radius: 10px;
+    background-color: green;
+}
